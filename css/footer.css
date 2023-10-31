@@ -1,0 +1,6 @@
+/*footer*/
+footer {
+    background-color: var(--color-dark) !important;
+    color: var(--color-white);
+    line-height: 2;
+  }
