@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Replanet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- header -->
+    <div class="topnav-area">
+        <div class="topnav" id="myTopnav" style="max-width: 100%!important; padding: 0 2rem">
+            <a href="main.html" class="brand">Replanet</a>
+            <div class="menu">
+                <a href="campaign.html" class="active">기부하기</a>
+                <a href="#">캠페인후기</a>
+                <a href="#">기부영수증</a>
+                <a href="mypage.html">userId</a>
+                <a href="#" class="user"><i class="fa fa-sign-in"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveHeader()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- pages -->
+
+    <div class="header-admin">
+        <div class="header-admin-menu bg-primary"><h4>USER01님</h4></div>
+        <div class="header-admin-menu">
+            <h5>총 기부 횟수</h5>
+            <h3 class="text-primary">13회</h3>
+        </div>
+        <div class="header-admin-menu">
+            <h6>총 기부 액수</h6>
+            <h4 class="text-primary">143,4320원</h4>
+        </div>
+    </div>
+
+    <div class="container-admin">
+        <div class="admin-sidebar bg-light">
+            <div class="admin-sidebar-menu">
+                <h6>소유 기부포인트</h6>
+                <h4>70,000P</h4>
+            </div>
+            <div class="admin-sidebar-menu">기부(결제)내역</div>
+            <div class="admin-sidebar-menu">포인트 전환 및 관리</div>
+            <div class="admin-sidebar-menu">기부영수증 안내</div>
+            <div class="admin-sidebar-menu">관심리스트</div>
+            <div class="admin-sidebar-menu bg-light">회원정보 수정</div>
+            <div class="admin-sidebar-menu bg-light">회원탈퇴</div>
+        </div>
+        <div class="admin-main">
+            <div class="admin-title">
+                <h1>관심리스트</h1>
+                <span>총 관심 갯수</span>
+            </div>
+
+            <table>
+                <thead>
+                    <th>
+                        <input id="c1" type="checkbox">
+                        <label for="c1"></label>
+                    </th>
+                    <th>순번</th>
+                    <th>캠페인 이름</th>
+                    <th>단체</th>
+                    <th>캠페인 등록일</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c2" type="checkbox" checked>
+                            <label for="c2"></label>
+                        </td>
+                        <td>1</td>
+                        <td>[기부] 이스라엘 가자 전쟁 기금</td>
+                        <td>네이션브리지 전쟁수호협회</td>
+                        <td>2023-10-10</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <ul class="pagination">
+                <li class="icon">
+                  <a href="#"><span class="fas fa-angle-left"></span></a>
+                </li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+                <li class="icon">
+                  <a href="#"><span class="fas fa-angle-right"></span></a>
+                </li>
+              </ul>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="items-container ic1 text-center">
+                copyright
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/header.js"></script>
+    
+    <script src="js/default.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+</body>
+
+</html>

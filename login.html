@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Replanet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="bg-light">
+
+  <!-- header -->
+  <div class="topnav-area">
+    <div class="topnav" id="myTopnav">
+      <a href="main.html" class="brand">Replanet</a>
+      <div class="menu">
+        <a href="campaign.html" class="active">기부하기</a>
+        <a href="#">캠페인후기</a>
+        <a href="#">기부영수증</a>
+        <a href="mypage.html">userId</a>
+        <a href="#" class="user"><i class="fa fa-sign-in"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveHeader()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- pages -->
+  <div class="container-first container-centered">
+
+
+        
+
+            <h2>로그인이 필요한 서비스입니다.</h2>
+            <div id="container-user">
+
+                <div class="tabs">
+                    <input id="tab1" type="radio" name="tab_item" checked>
+                    <label class="tab_item ti2" for="tab1">일반 로그인</label>
+                    <input id="tab2" type="radio" name="tab_item">
+                    <label class="tab_item ti2" for="tab2">소셜 로그인</label>
+              
+                    <div class="tab_content" id="tab1_content">
+                      <div class="items-container ic1">
+                        <input type="text" class="input" placeholder="id"/>
+                        <input type="password" class="input" placeholder="비밀번호"/>
+                        <button class="button button-primary">로그인</button>
+                        <button class="button button-primary-outline">회원가입</button>
+                      </div>
+                      <div class="items-container ic3 pt-2">
+                        <a href="#" class="login-option"><div class="join-social"><i class="fa fa-comment"></i></div> 회원가입</a>
+                        <a href="#" class="login-option">아이디 찾기</a>
+                        <a href="#" class="login-option">비밀번호 찾기</a>
+                      </div>
+              
+                    </div>
+                    <div class="tab_content" id="tab2_content">
+                        <div class="items-container ic1">
+                            api 새창
+                        </div>
+  
+                
+                      </div>
+              
+                  </div>
+
+
+            </div>
+
+
+          
+
+        
+
+
+
+
+
+
+
+  </div>
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="items-container ic1 text-center">
+        copyright
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/header.js"></script>
+  
+  <script src="js/default.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+</body>
+
+</html>

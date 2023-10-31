@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Replanet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- header -->
+    <div class="topnav-area">
+        <div class="topnav" id="myTopnav">
+            <a href="main.html" class="brand">Replanet</a>
+            <div class="menu">
+                <a href="campaign.html" class="active">기부하기</a>
+                <a href="#">캠페인후기</a>
+                <a href="#">기부영수증</a>
+                <a href="mypage.html">userId</a>
+                <a href="#" class="user"><i class="fa fa-sign-in"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveHeader()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- pages -->
+    <div class="container-first">
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        <p>p</p>
+        <hr>
+        <button class="button button-primary">버튼</button> <button class="button button-primary-outline">하얀버튼</button>
+        <button class="button button-lg button-primary">버튼 큰거</button> <button
+            class="button button-lg button-primary-outline">하얀버튼 큰거</button>
+        <hr>
+        <div class="items-container ic4">
+
+            <div class="item">
+                <input class="input" placeholder="input" />
+                
+            </div>
+            <div class="item">
+                <div class="input-group">
+                    <input class="input" placeholder="input-group" />
+                    <button class="button button-primary">버튼</button>
+                </div>
+            </div>
+            <div class="item">
+                <input class="input input-lg" placeholder="input-lg" />
+            </div>
+            <div class="item">
+                <div class="input-group">
+                    <input class="input input-lg" placeholder="input-group-lg" />
+                    <button class="button button-lg button-primary">버튼</button>
+                </div>
+            </div>
+        </div>
+        <div class="items-container ic4">
+            <div class="item">
+                <div class="item">
+                    <select class="select select-lg">
+                        <option class="option">select-lg</option>
+                        <option class="option">1</option>
+                        <option class="option">1</option>
+                        <option class="option">1</option>
+                    </select>
+                </div>
+            </div>
+            <div class="item">
+                <select class="select">
+                    <option class="option">select</option>
+                    <option class="option">1</option>
+                    <option class="option">1</option>
+                    <option class="option">1</option>
+                </select>
+            </div>
+            <div class="item bg-light">
+                <ul>
+                    <li>
+                      <input id="c1" type="checkbox">
+                      <label for="c1">Checkbox</label>
+                    </li>
+                    <li>
+                      <input id="c2" type="checkbox" checked>
+                      <label for="c2">Checkbox</label>
+                    </li>
+                    <li>
+                      <input id="r1" type="radio" name="radio" value="1">
+                      <label for="r1">Radio</label>
+                    </li>
+                    <li>
+                      <input id="r2" type="radio" name="radio" value="2" checked>
+                      <label for="r2">Radio</label>
+                    </li>
+                    <li>
+                      <input id="s1" type="checkbox" class="switch">
+                      <label for="s1">Switch</label>
+                    </li>
+                    <li>
+                      <input id="s2" type="checkbox" class="switch" checked>
+                      <label for="s2">Switch</label>
+                    </li>
+                  </ul>
+                  
+                  <ul>
+                    <li>
+                      <input id="c1d" type="checkbox" disabled>
+                      <label for="c1d">Checkbox</label>
+                    </li>
+                    <li>
+                      <input id="c2d" type="checkbox" checked disabled>
+                      <label for="c2d">Checkbox</label>
+                    </li>
+                    <li>
+                      <input id="r1d" type="radio" name="radiod" value="1" disabled>
+                      <label for="r1d">Radio</label>
+                    </li>
+                    <li>
+                      <input id="r2d" type="radio" name="radiod" value="2" checked disabled>
+                      <label for="r2d">Radio</label>
+                    </li>
+                    <li>
+                      <input id="s1d" type="checkbox" class="switch" disabled>
+                      <label for="s1d">Switch</label>
+                    </li>
+                    <li>
+                      <input id="s2d" type="checkbox" class="switch" checked disabled>
+                      <label for="s2d">Switch</label>
+                    </li>
+                  </ul>
+            </div>
+            <div class="item bg-light"></div>
+        </div>
+        <div class="items-container ic3">
+            <div class="item bg-light"></div>
+            <div class="item bg-light"></div>
+            <div class="item bg-light"></div>
+        </div>
+        <div class="items-container ic2">
+            <div class="item bg-light">
+                <div class="item-thumb">
+                    <img src="img/1.png" />
+                </div>
+            </div>
+            <div class="item bg-light">
+                <div class="item-thumb">
+                    <img src="img/2.png" />
+                </div>
+            </div>
+        </div>
+        <div class="items-container ic1">
+            <div class="item">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>Basic</th>
+                            <th>Pro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sample text</td>
+                            <td><i class="fa fa-remove"></i></td>
+                            <td><i class="fa fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Sample text</td>
+                            <td><i class="fa fa-check"></i></td>
+                            <td><i class="fa fa-check"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <div class="items-container ic1">
+          <div class="tabs">
+            <input id="tab1" type="radio" name="tab_item" checked>
+            <label class="tab_item ti4" for="tab1">탭1</label>
+            <input id="tab2" type="radio" name="tab_item">
+            <label class="tab_item ti4" for="tab2">탭2</label>
+            <input id="tab3" type="radio" name="tab_item">
+            <label class="tab_item ti4" for="tab3">탭3</label>
+            <input id="tab4" type="radio" name="tab_item">
+            <label class="tab_item ti4" for="tab4">탭4</label>
+      
+      
+            <div class="tab_content" id="tab1_content">
+              <div class="item-container ic1">
+                1
+              </div>
+            </div>
+            <div class="tab_content" id="tab2_content">
+              <div class="item-container ic1">
+                2
+              </div>
+            </div>
+            <div class="tab_content" id="tab3_content">
+              <div class="item-container ic1">
+                3
+              </div>
+            </div>
+            <div class="tab_content" id="tab4_content">
+              <div class="item-container ic1">
+                4
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="items-container ic1 text-center">
+                copyright
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/header.js"></script>
+    
+    <script src="js/default.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+</body>
+
+</html>
